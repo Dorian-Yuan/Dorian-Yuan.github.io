@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小屋</title>
-    <updated>2020-04-09T11:59:46.059Z</updated>
+    <updated>2020-04-09T12:10:25.221Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -152,21 +152,6 @@
 <blockquote>
 <p>原文详见知乎专栏<a href="https://zhuanlan.zhihu.com/p/79092634">markdown教程</a></p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://Dorian-Yuan.github.io/about/</id>
-        <link href="https://Dorian-Yuan.github.io/about/">
-        </link>
-        <updated>2020-04-09T04:04:19.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站-一个秘密自留地不过也没什么见不得人的">🏠 关于本站---一个秘密自留地，不过也没什么见不得人的</h2>
-<h2 id="博主是谁-一个神秘男子">👨‍💻 博主是谁---一个神秘男子</h2>
-<h2 id="兴趣爱好-喜欢音乐喜欢电影喜欢折腾喜欢邓紫棋">⛹ 兴趣爱好---喜欢音乐/喜欢电影/喜欢折腾/喜欢邓紫棋</h2>
-<h2 id="联系我呀-emaildorainy163com">📬 联系我呀---eMail：DorainY@163.com</h2>
 ]]></content>
     </entry>
     <entry>
