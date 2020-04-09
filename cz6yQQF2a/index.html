@@ -4,105 +4,96 @@
     <meta charset="utf-8" >
 
 <title>MARKDOWN入门 | Dorian的秘密小屋</title>
+<meta name="description" content="Dorian的秘密自留地">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://Dorian-Yuan.github.io/favicon.ico?v=1586410094222">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Dorian-Yuan.github.io/favicon.ico?v=1586410067976">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://Dorian-Yuan.github.io/styles/main.css">
 
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
-
-    <meta name="description" content="1、前言
-写blog对于markdown还是稍微有点要求的，所以提前给自己找个教程学着。
-2、教程
-快捷键
-1️⃣撤销：Ctrl/Command + Z
-2️⃣重做：Ctrl/Command + Y
-3️⃣加粗：Ctrl/Command +..." />
-    <meta name="keywords" content="技术" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Dorian-Yuan.github.io">
-        <img src="https://Dorian-Yuan.github.io/images/avatar.png?v=1586410067976" class="site-logo">
-        <h1 class="site-title">Dorian的秘密小屋</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://Dorian-Yuan.github.io">Dorian的秘密小屋</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="site-nav">
-            首页
-          </a>
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
         
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+      </ul>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      Dorian的秘密自留地
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Dorian</a> | <a class="rss" href="https://Dorian-Yuan.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</nav>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">MARKDOWN入门</h2>
-            <div class="post-date">2020-04-09</div>
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>MARKDOWN入门</h1>
+            <p class="article-meta">
+              2020-04-09
+              
+                <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="badge ">
+                  技术
+                </a>
+              
+            </p>
             
-              <div class="feature-container" style="background-image: url('https://Dorian-Yuan.github.io/post-images/cz6yQQF2a.png')">
-              </div>
+              <img src="https://Dorian-Yuan.github.io/post-images/cz6yQQF2a.png" alt="MARKDOWN入门">
             
-            <div class="post-content" v-pre>
+            <div class="post-content">
               <h1 id="1-前言">1、前言</h1>
 <p>写blog对于markdown还是稍微有点要求的，所以提前给自己找个教程学着。</p>
 <h1 id="2-教程">2、教程</h1>
@@ -147,49 +138,108 @@
 </blockquote>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="tag">
-                    技术
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://Dorian-Yuan.github.io/about/">
-                  <h3 class="post-title">
-                    关于
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://Dorian-Yuan.github.io/about/">
+                <h3 class="post-title">
+                  关于
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
       </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://Dorian-Yuan.github.io/images/avatar.png?v=1586410094222" class="no-responsive avatar">
+    <div class="text-muted">Dorian的秘密自留地</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/">MARKDOWN入门</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://Dorian-Yuan.github.io/about/">关于</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://Dorian-Yuan.github.io/hello-gridea/">Hello Blog</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="badge ">
+          技术
+        </a>
+      
+        <a href="https://Dorian-Yuan.github.io/mXp-8Js1H/" class="badge warning">
+          简介
+        </a>
+      
+        <a href="https://Dorian-Yuan.github.io/m8eKFziqI/" class="badge secondary">
+          日常
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Dorian</a> | <a class="rss" href="https://Dorian-Yuan.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
 
 
 
