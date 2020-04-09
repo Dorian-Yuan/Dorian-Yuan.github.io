@@ -1,6 +1,20 @@
-<head>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>做一个个人博客 | Dorian的秘密小破站</title>
+<meta name="description" content="音乐/电影/数码/Blog/邓紫棋/HUSTer" />
+<link rel="shortcut icon" href="https://Dorian-Yuan.github.io/favicon.ico">
+<link rel="stylesheet" href="https://Dorian-Yuan.github.io/styles/main.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://Dorian-Yuan.github.io/media/js/jquery.min.js"></script>
+<script src="https://Dorian-Yuan.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://Dorian-Yuan.github.io/media/js/aos.js"></script>
+<script src="https://Dorian-Yuan.github.io/media/js/pace.min.js"></script>
+<script src="https://Dorian-Yuan.github.io/media/js/view-image.min.js"></script>
+<script src="https://Dorian-Yuan.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://Dorian-Yuan.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
     <meta name="description" content="
 完全免费/完全小白也可/不需要代码
 
@@ -12,505 +26,100 @@
 4️⃣下载并安装Gridea
 下载会有点慢，找我要安..." />
     <meta name="keywords" content="技术" />
-    <link rel="stylesheet" href="https://Dorian-Yuan.github.io/media/css/bootstrap.min.css">
-    
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css">
-              
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://Dorian-Yuan.github.io/media/css/bootstrap.min.css">
-    <title>Dorian的秘密小破站</title>
-</head>
-
-<body>
-    <!-- 响应式布局，针对PC端内容显示 -->
-    <div id="content">
-        <div class="nav-large">
-            <div class="row">
-                <div class="side"><html>
-
-<head>
-    <link rel="stylesheet" href="https://Dorian-Yuan.github.io/styles/main.css">
-    <meta name="description" content="音乐/电影/数码/Blog/邓紫棋/HUSTer" />
-    <title>Document</title>
-</head>
-<style>
-</style>
-
-<body>
-    <div id=side>
-        <div class="avatar-border">
-            <img src="https://Dorian-Yuan.github.io/images/avatar.png?v=1586449021267" class="avatar">
+    <script src="https://Dorian-Yuan.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://Dorian-Yuan.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
         </div>
-        <div class="sitename">Dorian的秘密小破站</div>
-        <span class="describtion" data-text='["音乐/电影/数码/Blog/邓紫棋/HUSTer"]'>&nbsp;</span>
-        
-        <div class="search">
-            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
-            <input type="text" class="search-input" placeholder="搜索你想搜索的吧 ⚆_⚆ つ♡">
-            <div class="search-results"></div>
-        </div>
-        
-    <div class="share-button">
-        <span>Contact</span>
-        
-        
-        <a onclick="showqq()"><i><img class="icon" src="https://Dorian-Yuan.github.io/media/images/QQ.png" alt=""></i></a>
-        
-        
-        
-        
-        <a href="YuanYouHao718" target="_blank"><i><img class="icon"
-                    src="https://Dorian-Yuan.github.io/media/images/wechat.png" alt=""></i></a>
-        
-        
-    </div>
-    <div id="qq" style="display:none">1012513782</div>
-    
-    
-    <div class="mchocie describtion">
-        <a href="/" class="menubutton">
-            首页
-        </a>
-    </div>
-    
-    
-    
-    <div class="mchocie describtion">
-        <a href="/archives" class="menubutton">
-            归档
-        </a>
-    </div>
-    
-    
-    
-    <div class="mchocie describtion">
-        <a href="/tags" class="menubutton">
-            标签
-        </a>
-    </div>
-    
-    
-    
-    <hr>
-    <div id="footinfo">Made by Dorian | Theme: Fog</div>
-    <div id="sitegotimeDate">载入天数...</div>
-    <div id="sitegotimes">载入时分秒...</div>
-    <div id="cussitetime" style="display:none">04/08/2020</div>
-    </div>
-</body>
-
-</html>
-<script src="https://Dorian-Yuan.github.io/media/js/wordshow.js"></script>
-<script>
-    //----------------------站点运行时间
-    var now = new Date();
-
-    function createtime() {
-        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
-        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
-        now.setTime(now.getTime() + 250);
-        days = (now - grt) / 1000 / 60 / 60 / 24;
-        dnum = Math.floor(days);
-        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
-        hnum = Math.floor(hours);
-        if (String(hnum).length == 1) {
-            hnum = "0" + hnum;
-        }
-        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes);
-        if (String(mnum).length == 1) {
-            mnum = "0" + mnum;
-        }
-        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds);
-        if (String(snum).length == 1) {
-            snum = "0" + snum;
-        }
-        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
-        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-    }
-    setInterval("createtime()", 250);
-
-    //-------------------------------------------------搜索
-    // 获取搜索框、搜索按钮、清空搜索、结果输出对应的元素
-    var searchInput = document.querySelector('.search-input');
-    var searchResults = document.querySelector('.search-results');
-
-    // 申明保存文章的标题、链接、内容的数组变量
-    var searchValue = '',
-        arrItems = [],
-        arrLinks = [],
-        arrTitles = [],
-        arrResults = [],
-        indexItem = [],
-        itemLength = 0;
-    var tmpDiv = document.createElement('div');
-    tmpDiv.className = 'result-item';
-
-    // ajax 的兼容写法
-    var xhr = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            xml = xhr.responseXML;
-            arrItems = xml.getElementsByTagName('entry');
-            itemLength = arrItems.length;
-            console.log(arrItems);
-            // 遍历并保存所有文章对应的标题、链接、内容到对应的数组中
-            // 同时过滤掉 HTML 标签
-            for (i = 0; i < itemLength; i++) {
-                var link = arrItems[i].getElementsByTagName('link')[0];
-                arrLinks[i] = link.getAttribute("href");
-                arrTitles[i] = arrItems[i].getElementsByTagName('title')[0].
-                childNodes[0].nodeValue.replace(/<.*?>/g, '');
-            }
-        }
-    }
-
-    // 开始获取根目录下 feed.xml 文件内的数据
-    xhr.open('get', '/atom.xml', true);
-    xhr.send();
-
-
-
-    // 输入框内容变化后就开始匹配，可以不用点按钮
-    // 经测试，onkeydown, onchange 等方法效果不太理想，
-    // 存在输入延迟等问题，最后发现触发 input 事件最理想，
-    // 并且可以处理中文输入法拼写的变化
-    searchInput.oninput = function () {
-        setTimeout(searchConfirm, 0);
-    }
-    searchInput.onfocus = function () {
-        searchResults.style.display = 'block';
-    }
-
-    function searchConfirm() {
-        if (searchInput.value == '') {
-            searchResults.style.display = 'none';
-        } else if (searchInput.value.search(/^\s+$/) >= 0) {
-            // 检测输入值全是空白的情况
-            searchInit();
-            var itemDiv = tmpDiv.cloneNode(true);
-            itemDiv.innerText = '请输入有效内容...';
-            searchResults.appendChild(itemDiv);
-        } else {
-            // 合法输入值的情况
-            searchInit();
-            searchValue = searchInput.value;
-            // 在标题、内容中查找
-            searchMatching(arrTitles, searchValue);
-        }
-    }
-
-    // 每次搜索完成后的初始化
-    function searchInit() {
-        arrResults = [];
-        indexItem = [];
-        searchResults.innerHTML = '';
-        searchResults.style.display = 'block';
-    }
-
-    function searchMatching(arr1, input) {
-        // 忽略输入大小写
-        input = new RegExp(input, 'i');
-        // 在所有文章标题、内容中匹配查询值
-        for (i = 0; i < itemLength; i++) {
-            if (arr1[i].search(input) !== -1) {
-                var arr = arr1;
-                indexItem.push(i); // 保存匹配值的索引
-                var indexContent = arr[i].search(input);
-                // 此时 input 为 RegExp 格式 /input/i，转换为原 input 字符串长度
-                var l = input.toString().length - 3;
-                var step = 10;
-
-                // 将匹配到内容的地方进行黄色标记，并包括周围一定数量的文本
-                arrResults.push(arr[i].slice(indexContent - step, indexContent) +
-                    '<mark>' + arr[i].slice(indexContent, indexContent + l) + '</mark>' +
-                    arr[i].slice(indexContent + l, indexContent + l + step));
-            }
-        }
-
-        // 输出总共匹配到的数目
-        var totalDiv = tmpDiv.cloneNode(true);
-        totalDiv.innerHTML = '<b>总匹配：' + indexItem.length + ' 项<hr></b>';
-        searchResults.appendChild(totalDiv);
-
-        // 未匹配到内容的情况
-        if (indexItem.length == 0) {
-            var itemDiv = tmpDiv.cloneNode(true);
-            itemDiv.innerText = '未匹配到内容...';
-            searchResults.appendChild(itemDiv);
-        }
-
-        // 将所有匹配内容进行组合
-        for (i = 0; i < arrResults.length; i++) {
-            var itemDiv = tmpDiv.cloneNode(true);
-            itemDiv.innerHTML = '<b>[' + arrTitles[indexItem[i]] +
-                ']</b><p>' + arrResults[i] + "</p><hr />";
-            itemDiv.setAttribute('onclick', 'changeHref(arrLinks[indexItem[' + i + ']])');
-            searchResults.appendChild(itemDiv);
-        }
-    }
-
-    function changeHref(href) {
-        location.href = href;
-    }
-
-    function showqq() {
-        var qq = document.getElementById("qq").innerHTML;
-        if (qq != '')
-            alert("博主的QQ联系方式为：" + qq);
-        else
-            alert("博主暂未设置QQ联系方式");
-    }
-</script></div>
-                <div id="tab1" class="tab">
-                    <div class="bars">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="close"></div>
-                </div>
-                <div id="main" class="col-xs-12 col-sm-7">
-                    <link rel="stylesheet" href="https://Dorian-Yuan.github.io/media/css/font-awesome.css">
-<style>
-
-</style>
-
-<body>
-    <div class="allcontent">
-        <div class="postshow">
-            
-            <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" class="postimage" style="cursor:auto">
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://Dorian-Yuan.github.io"><img src="\media\images\custom-headerLogo.png" alt=""></a>
             </div>
-            <div class="postinfo">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-04-09</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
-                <div class="posttag">
-                    
-                    <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="postlink">
-                        <i class="fa fa-tag"></i> 技术
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://Dorian-Yuan.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/" class="menu">
+                      首页
                     </a>
-                    
-                </div>
-            </div>
-            
-            <div id="texttitle" style="text-align: center">
-                <h2>做一个个人博客</h2>
-            </div>
-            <div class="text ">
-                <blockquote>
-<p>完全免费/完全小白也可/不需要代码</p>
-</blockquote>
-<h1 id="一-前期准备">一、前期准备</h1>
-<p><strong>1️⃣一个能用的电脑</strong><br>
-<strong>2️⃣注册一个<a href="https://github.com/">GitHub</a>账号</strong><br>
-<strong>3️⃣下载并安装<a href="https://pc.qq.com/search.html#!keyword=git">Git</a></strong><br>
-一直NEXT就完事，无特殊要求，下文中并不会用到它😁<br>
-<strong>4️⃣下载并安装<a href="https://gridea.dev/">Gridea</a></strong><br>
-下载会有点慢，找我要安装包可能会比较快<br>
-<strong>5️⃣一个敢于多次试错的心</strong></p>
-<h1 id="二-主要操作">二、主要操作</h1>
-<p><strong>1️⃣进入github点击右上角头像--settings--developer settings--personal access tokens</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_dc551cf9_5019_016@1620x2160.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"><br>
-<strong>创建好一个新的token后，填好对应的信息（），勾选且<mark>只勾选repo</mark>相关权限，然后点击<mark>generate new token</mark></strong></p>
-<p><strong><mark>这个token只会显示一次，请务必copy下来保存好，之后要用到的</mark></strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_0a16ea53_5019_0162@1620x1612.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>2️⃣返回github主页，点击左侧<mark>Repositories</mark>，然后点击<mark>Creat a new repository</mark>。建议你创建仓库名为 <mark>用户名.github.io</mark> 的仓库，因为 Github 会默认将此仓库设置成Github Pages 可访问类型，若不是用此命名的仓库，则不能默认使用 Github Pages，所以请务必认真确认</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_1e29fb4a_5019_0163@1335x886.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>3️⃣打开安装好的Gridea，点击左侧<mark>远程</mark>按钮，然后点击<mark>基础配置</mark>，如图按要求填写相关信息，令牌处填刚刚要你保存好的<mark>token</mark>，CNAME为自定义域名配置，没有可不填</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_ae6698f8_5019_0165@1484x992.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>4️⃣再进入github点击右上角头像--settings--developer settings--OAuth Apps，创建一个新的OAuth application，然后点击Register application 保存</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_44c40ddc_5019_0167@1620x2160.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>5️⃣第4步结束后你会得到一个Client ID和一个Client Secret同样复制到粘贴板备用</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_b9d3b3a6_5019_0169@478x272.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>6️⃣重回Gridea打开远程--评论配置，如图打开相关开关并填入Client ID和Client Secret等相关信息</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_32a91de9_5022_3563@1484x992.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>7️⃣点击左下角的<mark>同步</mark>按钮，你的Blog就初步建成了！</strong></p>
-<h1 id="三-完善你的blog">三、完善你的Blog</h1>
-<p><strong>1️⃣点击<a href="https://gridea.dev/themes/">美化主题</a>，寻找你钟意的那个，点击进去之后点击<mark>Clone or Download</mark>，选择Download Zip下载</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_fac1b3f6_5022_3566@1280x729.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>2️⃣解压，找到打开后有四个文件的那个子文件夹(不是打开之后还是同名文件夹的文件夹)，剪切这个文件夹，然后在下图所示路径粘贴(documents也可能是汉字文档)</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_35b33b19_5022_3568@708x562.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>3️⃣然后进入Gridea点击 主题--基础配置中选择对应主题，配置完成后同步即可应用每个主题的功能不同有的自带天气插件，音乐插件，宠物挂机，友链模块，只需要在主题栏对应设置就ok了，注意每次更改完<mark>保存后再同步</mark>就可以应用到你的博客上了</strong></p>
-<p><strong>4️⃣写作需要用到MARKDOWN，轻度使用的话很容易掌握，<a href="https://dorian-yuan.github.io/cz6yQQF2a/">友情链接</a>点击即可获得简单教程一份</strong></p>
-<h1 id="四-总结">四、总结</h1>
-<p><strong>Gridea的配置简单易懂，但是玩法还是很多的，你大可以自己去好好琢磨</strong></p>
-<blockquote>
-<p>eMail:DorianY@163.com</p>
-</blockquote>
-
-            </div>
-            
-            <div class="prev-post">
-                上一篇
-                <a href="https://Dorian-Yuan.github.io/M8vLcp1eF/">
-                    买非国行iphone怎么避免翻车？
-                </a>
-            </div>
-            
-            
-            <div class="next-post">
-                下一篇
-                <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
-                    Gridea编辑入门
-                </a>
-            </div>
-            
+                  </li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
         </div>
-    </div>
-</body>
-<script>
-    var t_img; // 定时器
-    var isLoad = true; // 控制变量
-    isImgLoad(function () {
-        // 加载完成
-        $('.postdetailimg').css("display", "block");
-    });
-    // 判断图片加载的函数
-    function isImgLoad(callback) {
-        // 注意我的图片类名都是cover，因为我只需要处理cover。其它图片可以不管。
-        // 查找所有封面图，迭代处理
-        $('.postdetailimg').each(function () {
-            // 找到为0就将isLoad设为false，并退出each
-            if (this.height === 0) {
-                isLoad = false;
-                return false;
-            }
-        });
-        // 为true，没有发现为0的。加载完毕
-        if (isLoad) {
-            clearTimeout(t_img); // 清除定时器
-            // 回调函数
-            callback();
-            // 为false，因为找到了没有加载完成的图，将调用定时器递归
-        } else {
-            isLoad = true;
-            t_img = setTimeout(function () {
-                isImgLoad(callback); // 递归扫描
-            }, 500); // 我这里设置的是500毫秒就扫描一次，可以自己调整
-        }
-    }
-</script>
-                    <div name="comment" style="background: white">
-                        <div class="commentcontainer">
-                            
-                            <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="toc-container">
-                    <ul class="markdownIt-TOC">
-<li><a href="#%E4%B8%80-%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87">一、前期准备</a></li>
-<li><a href="#%E4%BA%8C-%E4%B8%BB%E8%A6%81%E6%93%8D%E4%BD%9C">二、主要操作</a></li>
-<li><a href="#%E4%B8%89-%E5%AE%8C%E5%96%84%E4%BD%A0%E7%9A%84blog">三、完善你的Blog</a></li>
-<li><a href="#%E5%9B%9B-%E6%80%BB%E7%BB%93">四、总结</a></li>
-</ul>
-
-                </div>
-            </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1586450140562" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
         </div>
-        <div id="bg">
-        </div>
-        <div id="bgurl" style="display:none">/media/images/bgimg.png</div>
-    </div>
-    <!-- 响应式布局，针对手机端内容显示 -->
-    <div class="nav-small">
-        <head>
-
-  <!-- 引入Bootstrap核心样式文件 -->
-  <link rel="stylesheet" href="https://Dorian-Yuan.github.io/media/css/bootstrap.min.css">
-</head>
-
-<body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Dorian的秘密小破站&nbsp;&nbsp;|</a>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          
-          
-          <li>
-            <a href="/">
-              首页
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/archives">
-              归档
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/tags">
-              标签
-            </a>
-          </li>
-          
-          
-          
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-
-  <!-- 引入jQuery核心js文件 -->
-  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-  <!-- 引入BootStrap核心js文件 -->
-  <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-        <div style="margin-top:30px"></div>
-        <link rel="stylesheet" href="https://Dorian-Yuan.github.io/media/css/font-awesome.css">
-<style>
-
-</style>
-
-<body>
-    <div class="allcontent">
-        <div class="postshow">
-            
-            <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" class="postimage" style="cursor:auto">
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-04-09"><i class="fa fa-calendar"></i><span class="lately">7 小时前</span></time>
+              
+              <a href="https://Dorian-Yuan.github.io/Zf_dhVgll/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/Zf_dhVgll/"> </span>
+              </a>
+              <span id="/Zf_dhVgll/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
             </div>
-            <div class="postinfo">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-04-09</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
-                <div class="posttag">
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="ctag ctag-0 ctag-oewWYacKg" aria-label="">技术</a>
                     
-                    <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="postlink">
-                        <i class="fa fa-tag"></i> 技术
-                    </a>
-                    
-                </div>
+              </div>
+              <h1 class="title ularge white bold">做一个个人博客</h1>
             </div>
-            
-            <div id="texttitle" style="text-align: center">
-                <h2>做一个个人博客</h2>
-            </div>
-            <div class="text ">
-                <blockquote>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <blockquote>
 <p>完全免费/完全小白也可/不需要代码</p>
 </blockquote>
 <h1 id="一-前期准备">一、前期准备</h1>
@@ -551,72 +160,189 @@
 <p>eMail:DorianY@163.com</p>
 </blockquote>
 
-            </div>
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('http://image.coolapk.com/feed/2020/0325/14/3379903_cdd2446d_7419_9731@1112x500.jpeg');"></div>
+                 <a href="https://Dorian-Yuan.github.io/M8vLcp1eF/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-09">2020-04-09</time>
+                  <h4 class="title white no-margin">买非国行iphone怎么避免翻车？</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Dorian-Yuan.github.io/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://Dorian-Yuan.github.io/post-images/cz6yQQF2a.png');"></div>
+                 <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-04-09">2020-04-09</time>
+                  <h4 class="title white no-margin">Gridea编辑入门</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://Dorian-Yuan.github.io/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
             
-            <div class="prev-post">
-                上一篇
-                <a href="https://Dorian-Yuan.github.io/M8vLcp1eF/">
-                    买非国行iphone怎么避免翻车？
-                </a>
-            </div>
-            
-            
-            <div class="next-post">
-                下一篇
-                <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
-                    Gridea编辑入门
-                </a>
-            </div>
-            
-        </div>
-    </div>
-</body>
-<script>
-    var t_img; // 定时器
-    var isLoad = true; // 控制变量
-    isImgLoad(function () {
-        // 加载完成
-        $('.postdetailimg').css("display", "block");
-    });
-    // 判断图片加载的函数
-    function isImgLoad(callback) {
-        // 注意我的图片类名都是cover，因为我只需要处理cover。其它图片可以不管。
-        // 查找所有封面图，迭代处理
-        $('.postdetailimg').each(function () {
-            // 找到为0就将isLoad设为false，并退出each
-            if (this.height === 0) {
-                isLoad = false;
-                return false;
-            }
-        });
-        // 为true，没有发现为0的。加载完毕
-        if (isLoad) {
-            clearTimeout(t_img); // 清除定时器
-            // 回调函数
-            callback();
-            // 为false，因为找到了没有加载完成的图，将调用定时器递归
-        } else {
-            isLoad = true;
-            t_img = setTimeout(function () {
-                isImgLoad(callback); // 递归扫描
-            }, 500); // 我这里设置的是500毫秒就扫描一次，可以自己调整
-        }
-    }
-</script>
-        <div name="comment" style="background: white">
-            <div class="commentcontainer">
-                
+              <div id="comments" class="bg-white hosted ">
                 <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
-                
+              </div>
+              <div class="clear"></div>
+            
+
             </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Dorian-Yuan.github.io/rDw3uJqgd/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-09">2020-04-09</time>
+                      <h4 class="title usmall">
+                        <a href="https://Dorian-Yuan.github.io/rDw3uJqgd/">书籍合集贴/电子书超强总汇合集贴</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Dorian-Yuan.github.io/M8vLcp1eF/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('http://image.coolapk.com/feed/2020/0325/14/3379903_cdd2446d_7419_9731@1112x500.jpeg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-09">2020-04-09</time>
+                      <h4 class="title usmall">
+                        <a href="https://Dorian-Yuan.github.io/M8vLcp1eF/">买非国行iphone怎么避免翻车？</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://Dorian-Yuan.github.io/Zf_dhVgll/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-04-09">2020-04-09</time>
+                      <h4 class="title usmall">
+                        <a href="https://Dorian-Yuan.github.io/Zf_dhVgll/">做一个个人博客</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://Dorian-Yuan.github.io/WXY2-sttB/" class="ctag ctag-0 ctag-WXY2-sttB" aria-label="">资源</a>
+                    
+                      <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="ctag ctag-1 ctag-oewWYacKg" aria-label="">技术</a>
+                    
+                      <a href="https://Dorian-Yuan.github.io/m8eKFziqI/" class="ctag ctag-2 ctag-m8eKFziqI" aria-label="">日常</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://Dorian-Yuan.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">Dorian的秘密小破站</a></h4>
+                    <p class="founder">音乐/电影/数码/Blog/邓紫棋/HUSTer</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
         </div>
+
+        <div class="logo">
+          <a href="https://Dorian-Yuan.github.io"><img src="\media\images\custom-footerLogo.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 6 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+    
+    <div class="clear"></div>
+
+        
+
+      
+    <script src="https://Dorian-Yuan.github.io/media/js/functions-post.js"></script>
+
     </div>
-
-</body>
-<script>
-    hljs.initHighlightingOnLoad()
-</script>
-<script src="https://Dorian-Yuan.github.io/media/js/post.js"></script>
-
-<script src="https://l2dwidget.js.org//lib/L2Dwidget.min.js"></script>
-<script src="https://Dorian-Yuan.github.io/media/js/live2d.js"></script>
+    <!-- end: #wrapper -->
+  </body>
+</html>
