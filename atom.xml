@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小屋</title>
-    <updated>2020-04-09T05:47:07.934Z</updated>
+    <updated>2020-04-09T06:30:57.527Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -41,12 +41,12 @@
 <p><strong>------------------------------------------------------------------------------</strong></p>
 <h2 id="文本样式">文本样式</h2>
 <p>1️⃣“*  *和_  _”强调文本</p>
-<p>2️⃣”**  **和__  __“加粗文本</p>
-<p>3️⃣”==  ==“标记文本</p>
-<p>4️⃣”~~  ~~“删除文本</p>
-<p>5️⃣”&gt;“引用文本</p>
-<p>6️⃣”~  ~“ 让中间文本变为下标</p>
-<p>7️⃣”^  ^“让中间文本变为上标</p>
+<p>2️⃣“**  **和__  __”加粗文本</p>
+<p>3️⃣“==  ==”标记文本</p>
+<p>4️⃣“~~  ~~”删除文本</p>
+<p>5️⃣“&gt;”引用文本</p>
+<p>6️⃣“~  ~” 让中间文本变为下标</p>
+<p>7️⃣“^  ^”让中间文本变为上标</p>
 <p><strong>------------------------------------------------------------------------------</strong></p>
 <h2 id="链接">链接</h2>
 <p>1️⃣链接: <strong>[<strong>link</strong>]</strong>(链接).</p>
