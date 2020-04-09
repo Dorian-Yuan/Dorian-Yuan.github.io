@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小屋</title>
-    <updated>2020-04-09T10:24:01.392Z</updated>
+    <updated>2020-04-09T10:26:27.242Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -20,13 +20,13 @@
 <p>完全免费/完全小白也可/不需要代码</p>
 </blockquote>
 <h1 id="一-前期准备">一、前期准备</h1>
-<h2 id="1️⃣一个能用的电脑">1️⃣一个能用的电脑</h2>
-<h2 id="2️⃣注册一个github账号">2️⃣注册一个<a href="https://github.com/">GitHub</a>账号</h2>
-<h2 id="3️⃣下载并安装git">3️⃣下载并安装<a href="https://pc.qq.com/search.html#!keyword=git">Git</a></h2>
-<p>一直NEXT就完事，无特殊要求，下文中并不会用到它😁</p>
-<h2 id="4️⃣下载并安装gridea">4️⃣下载并安装<a href="https://gridea.dev/">Gridea</a></h2>
-<p>下载会有点慢，找我要安装包可能会比较快</p>
-<h2 id="5️⃣一个敢于多次试错的心">5️⃣一个敢于多次试错的心</h2>
+<p><strong>1️⃣一个能用的电脑</strong><br>
+<strong>2️⃣注册一个<a href="https://github.com/">GitHub</a>账号</strong><br>
+<strong>3️⃣下载并安装<a href="https://pc.qq.com/search.html#!keyword=git">Git</a></strong><br>
+一直NEXT就完事，无特殊要求，下文中并不会用到它😁<br>
+<strong>4️⃣下载并安装<a href="https://gridea.dev/">Gridea</a></strong><br>
+下载会有点慢，找我要安装包可能会比较快<br>
+<strong>5️⃣一个敢于多次试错的心</strong></p>
 <h1 id="二-主要操作">二、主要操作</h1>
 <p><strong>1️⃣进入github点击右上角头像--settings--developer settings--personal access tokens</strong><br>
 <img src="http://image.coolapk.com/feed/2020/0406/17/2807617_dc551cf9_5019_016@1620x2160.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"><br>
