@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小屋</title>
-    <updated>2020-04-09T04:04:26.954Z</updated>
+    <updated>2020-04-09T05:01:31.053Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,56 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小屋</rights>
+    <entry>
+        <title type="html"><![CDATA[MARKDOWN入门]]></title>
+        <id>https://Dorian-Yuan.github.io/cz6yQQF2a/</id>
+        <link href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
+        </link>
+        <updated>2020-04-09T04:21:06.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1-前言">1、前言</h1>
+<p>写blog对于markdown还是稍微有点要求的，所以提前给自己找个教程学着。</p>
+<h1 id="2-教程">2、教程</h1>
+<h2 id="快捷键">快捷键</h2>
+<p>1️⃣撤销：Ctrl/Command + Z</p>
+<p>2️⃣重做：Ctrl/Command + Y</p>
+<p>3️⃣加粗：Ctrl/Command + B</p>
+<p>4️⃣斜体：Ctrl/Command + I</p>
+<p>5️⃣标题：Ctrl/Command + Shift + H</p>
+<p>6️⃣插入代码：Ctrl/Command + Shift + K</p>
+<p>7️⃣插入链接：Ctrl/Command + Shift + L</p>
+<p>8️⃣插入图片：Ctrl/Command + Shift + G</p>
+<p>9️⃣查找：Command + F</p>
+<p>🔟替换：Command + G</p>
+<p><strong>------------------------------------------------------------------------------</strong></p>
+<h2 id="标题">标题</h2>
+<p>1️⃣“# ”1级标题</p>
+<p>2️⃣“## ”2级标题</p>
+<p>3️⃣“### ”3级标题</p>
+<p>4️⃣“#### ”四级标题</p>
+<p>5️⃣“##### ”五级标题</p>
+<p>6️⃣“###### ”六级标题</p>
+<p><strong>------------------------------------------------------------------------------</strong></p>
+<h2 id="文本样式">文本样式</h2>
+<p>1️⃣“*  *和_  _”强调文本</p>
+<p>2️⃣”**  **和__  __“加粗文本</p>
+<p>3️⃣”==  ==“标记文本</p>
+<p>4️⃣”~~  ~~“删除文本</p>
+<p>5️⃣”&gt;“引用文本</p>
+<p>6️⃣”~  ~“ 让中间文本变为下标</p>
+<p>7️⃣”^  ^“让中间文本变为上标</p>
+<p><strong>------------------------------------------------------------------------------</strong></p>
+<h2 id="链接">链接</h2>
+<p>1️⃣链接: <strong>[<strong>link</strong>]</strong>(链接).</p>
+<p>2️⃣图片: !<strong>[<strong>Alt</strong>]</strong>(链接)</p>
+<p>3️⃣带尺寸的图片: !<strong>[<strong>Alt</strong>]</strong>(链接 =30x30)</p>
+<p>4️⃣居中的图片: !<strong>[<strong>Alt</strong>]</strong>(链接#pic_center)</p>
+<p>5️⃣居中并且带尺寸的图片: !<strong>[<strong>Alt</strong>]</strong>(链接 =30x30)</p>
+<p><strong>------------------------------------------------------------------------------</strong></p>
+<blockquote>
+<p>原文详见知乎专栏[link]https://zhuanlan.zhihu.com/p/79092634</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://Dorian-Yuan.github.io/about/</id>
