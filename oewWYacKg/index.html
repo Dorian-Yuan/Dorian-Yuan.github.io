@@ -1,121 +1,143 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>技术 | Dorian的秘密小屋</title>
-<link rel="shortcut icon" href="https://Dorian-Yuan.github.io/favicon.ico?v=1586409086253">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Dorian-Yuan.github.io/favicon.ico?v=1586410067976">
 <link rel="stylesheet" href="https://Dorian-Yuan.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="技术 | Dorian的秘密小屋 - Atom Feed" href="https://Dorian-Yuan.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-  <meta name="description" content="Dorian的秘密自留地" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Dorian的秘密自留地">
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://Dorian-Yuan.github.io">
-  <img class="avatar" src="https://Dorian-Yuan.github.io/images/avatar.png?v=1586409086253" alt="">
-  </a>
-  <h1 class="site-title">
-    Dorian的秘密小屋
-  </h1>
-  <p class="site-description">
-    Dorian的秘密自留地
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+    <div id="app" class="main">
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：# 技术
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
-        <h2 class="post-title">MARKDOWN入门</h2>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://Dorian-Yuan.github.io">
+        <img src="https://Dorian-Yuan.github.io/images/avatar.png?v=1586410067976" class="site-logo">
+        <h1 class="site-title">Dorian的秘密小屋</h1>
       </a>
-      <div class="post-info">
-        <span>
-          2020-04-09
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://Dorian-Yuan.github.io/oewWYacKg/" class="post-tag">
-            # 技术
-          </a>
-        
-      </div>
-      
-        <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/" class="post-feature-image" style="background-image: url('https://Dorian-Yuan.github.io/post-images/cz6yQQF2a.png')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-</div>
-
-        <div class="pagination-container">
-  
-  
-</div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Dorian</a>
-  <a class="rss" href="https://Dorian-Yuan.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Dorian的秘密自留地
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> Dorian</a> | <a class="rss" href="https://Dorian-Yuan.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 技术</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
+                  <h2 class="post-title">MARKDOWN入门</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-09
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
+                  <div class="feature-container" style="background-image: url('https://Dorian-Yuan.github.io/post-images/cz6yQQF2a.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
   </body>
 </html>
