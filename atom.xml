@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小屋</title>
-    <updated>2020-04-09T09:25:48.333Z</updated>
+    <updated>2020-04-09T10:20:37.590Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,54 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小屋</rights>
+    <entry>
+        <title type="html"><![CDATA[做一个个人博客]]></title>
+        <id>https://Dorian-Yuan.github.io/Zf_dhVgll/</id>
+        <link href="https://Dorian-Yuan.github.io/Zf_dhVgll/">
+        </link>
+        <updated>2020-04-09T09:26:17.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>完全免费/完全小白也可/不需要代码</p>
+</blockquote>
+<h1 id="一-前期准备">一、前期准备</h1>
+<h2 id="1️⃣一个能用的电脑">1️⃣一个能用的电脑</h2>
+<h2 id="2️⃣注册一个github账号">2️⃣注册一个<a href="https://github.com/">GitHub</a>账号</h2>
+<h2 id="3️⃣下载并安装git">3️⃣下载并安装<a href="https://pc.qq.com/search.html#!keyword=git">Git</a></h2>
+<p>一直NEXT就完事，无特殊要求，下文中并不会用到它😁</p>
+<h2 id="4️⃣下载并安装gridea">4️⃣下载并安装<a href="https://gridea.dev/">Gridea</a></h2>
+<p>下载会有点慢，找我要安装包可能会比较快</p>
+<h2 id="5️⃣一个敢于多次试错的心">5️⃣一个敢于多次试错的心</h2>
+<h1 id="二-主要操作">二、主要操作</h1>
+<p><strong>1️⃣进入github点击右上角头像--settings--developer settings--personal access tokens</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_dc551cf9_5019_016@1620x2160.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"><br>
+<strong>创建好一个新的token后，填好对应的信息（），勾选且<mark>只勾选repo</mark>相关权限，然后点击<mark>generate new token</mark></strong></p>
+<p><strong><mark>这个token只会显示一次，请务必copy下来保存好，之后要用到的</mark></strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_0a16ea53_5019_0162@1620x1612.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>2️⃣返回github主页，点击左侧<mark>Repositories</mark>，然后点击<mark>Creat a new repository</mark>。建议你创建仓库名为 <mark>用户名.github.io</mark> 的仓库，因为 Github 会默认将此仓库设置成Github Pages 可访问类型，若不是用此命名的仓库，则不能默认使用 Github Pages，所以请务必认真确认</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_1e29fb4a_5019_0163@1335x886.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>3️⃣打开安装好的Gridea，点击左侧<mark>远程</mark>按钮，然后点击<mark>基础配置</mark>，如图按要求填写相关信息，令牌处填刚刚要你保存好的<mark>token</mark>，CNAME为自定义域名配置，没有可不填</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_ae6698f8_5019_0165@1484x992.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>4️⃣再进入github点击右上角头像--settings--developer settings--OAuth Apps，创建一个新的OAuth application，然后点击Register application 保存</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_44c40ddc_5019_0167@1620x2160.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>5️⃣第4步结束后你会得到一个Client ID和一个Client Secret同样复制到粘贴板备用</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_b9d3b3a6_5019_0169@478x272.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>6️⃣重回Gridea打开远程--评论配置，如图打开相关开关并填入Client ID和Client Secret等相关信息</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_32a91de9_5022_3563@1484x992.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>7️⃣点击左下角的<mark>同步</mark>按钮，你的Blog就初步建成了！</strong></p>
+<h1 id="三-完善你的blog">三、完善你的Blog</h1>
+<p><strong>1️⃣点击<a href="https://gridea.dev/themes/">美化主题</a>，寻找你钟意的那个，点击进去之后点击<mark>Clone or Download</mark>，选择Download Zip下载</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_fac1b3f6_5022_3566@1280x729.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>2️⃣解压，找到打开后有四个文件的那个子文件夹(不是打开之后还是同名文件夹的文件夹)，剪切这个文件夹，然后在下图所示路径粘贴(documents也可能是汉字文档)</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0406/17/2807617_35b33b19_5022_3568@708x562.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
+<p><strong>3️⃣然后进入Gridea点击 主题--基础配置中选择对应主题，配置完成后同步即可应用每个主题的功能不同有的自带天气插件，音乐插件，宠物挂机，友链模块，只需要在主题栏对应设置就ok了，注意每次更改完<mark>保存后再同步</mark>就可以应用到你的博客上了</strong></p>
+<p><strong>4️⃣写作需要用到MARKDOWN，轻度使用的话很容易掌握，<a href="https://dorian-yuan.github.io/cz6yQQF2a/">友情链接</a>点击即可获得简单教程一份</strong></p>
+<h1 id="四-总结">四、总结</h1>
+<p><strong>Gridea的配置简单易懂，但是玩法还是很多的，你大可以自己去好好琢磨</strong></p>
+<blockquote>
+<p>eMail:DorianY@163.com</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MARKDOWN入门]]></title>
         <id>https://Dorian-Yuan.github.io/cz6yQQF2a/</id>
