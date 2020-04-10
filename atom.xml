@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小破站</title>
-    <updated>2020-04-10T09:11:49.851Z</updated>
+    <updated>2020-04-10T09:20:34.006Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[《想见你想见你想见你》]]></title>
+        <id>https://Dorian-Yuan.github.io/xjnxjnxjn/</id>
+        <link href="https://Dorian-Yuan.github.io/xjnxjnxjn/">
+        </link>
+        <updated>2020-04-10T09:14:42.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>或许是和你一起唱的最后一首歌吧</strong></p>
+<p><strong>特地选这个来弹</strong></p>
+<p><strong>希望你以后</strong></p>
+<p><strong>一切都好</strong></p>
+<iframe height=400 width=800 src="http://vwecam.gtimg.com/1030_c652c8c641394dcd8048db53fab831d4.f20.mp4?ptype=http&vkey=A3012797C905808F168637C90C1D1437DEA2B2ECF10426A532E5D8FDF10450FE46D8CDEE54D78E4E76A6DD84BEEC77D668DC68C583B70E18&sdtfrom=v1000&owner=0">
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《好想爱这个世界啊》]]></title>
         <id>https://Dorian-Yuan.github.io/hxazgshja/</id>
