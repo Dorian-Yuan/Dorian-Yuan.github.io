@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小破站</title>
-    <updated>2020-04-11T03:49:22.516Z</updated>
+    <updated>2020-04-11T04:19:31.766Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,56 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[局域网下三端文件互联]]></title>
+        <id>https://Dorian-Yuan.github.io/SANDUANHULIAN/</id>
+        <link href="https://Dorian-Yuan.github.io/SANDUANHULIAN/">
+        </link>
+        <updated>2020-04-11T04:15:19.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一-准备阶段">一、准备阶段</h1>
+<h3 id="1️⃣准备一个wi-fi">1️⃣准备一个WI-FI</h3>
+<h3 id="2️⃣准备一个电脑">2️⃣准备一个电脑</h3>
+<h3 id="3️⃣安卓端">3️⃣安卓端：</h3>
+<p>​	<strong>如果是华为or荣耀手机，自带的文件APP里面有“网络邻居”这一选项。如果是其他手机自带的文件APP没有的话，建议下载一个有smb功能的文件管理器，比如<mark>ES文件浏览器</mark>。</strong></p>
+<h3 id="4️⃣ios端">4️⃣iOS端：</h3>
+<p>​	<strong><mark>iOS13</mark>系统和自带的文件app。如果不是iOS13的话，用ES也不是不行</strong></p>
+<h1 id="二-操作步骤">二、操作步骤</h1>
+<h3 id="1️⃣windows端">1️⃣Windows端：</h3>
+<p>​	<strong>1、设置--账户--家庭和其他账户--将其他人添加到这台电脑--我没有这个人的登陆信息--添加一个没有微软账户的用户--然后输入一个用户名和你能记住的密码--确定</strong></p>
+<figure data-type="image" tabindex="1"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_887182f1_9359_9483@1840x1080.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_602f2ada_9359_9484@1840x1080.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<p>​	<strong>2、选择一个你想共享的文件夹--属性--共享--点击灰色的添加符号旁边的下拉按钮--Everyone--Everyone的权限级别设置为 读取/写入--共享--完成--再点高级共享--权限--全部打勾☑️--确定</strong></p>
+<figure data-type="image" tabindex="3"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_94f2c716_9359_9486@543x728.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_8497cc52_9359_9488@787x592.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_b24e97bf_9359_949@526x719.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<p>​	<strong>3、控制面板--程序--程序和功能--启用或关闭Windows功能--在SMB前面打勾☑️--确定</strong></p>
+<figure data-type="image" tabindex="6"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_58a291e7_9359_9491@1840x1080.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_bec82668_9359_9493@1840x1080.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_25020b33_9359_9495@484x492.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<p>​	<strong>4、按下windows键+R键--输入小写cmd--确定--输入ipconfig--回车键--记住User后面的名称和记住ipv4地址</strong></p>
+<figure data-type="image" tabindex="9"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_54d13d4a_9365_5996@513x272.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_c2db9431_9365_5998@935x639.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<h3 id="2️⃣安卓端">2️⃣安卓端</h3>
+<p>​	<strong>打开准备好的文件app--网络邻居--扫描并点击--输入你刚刚注册的用户名和密码--连接就OK啦</strong></p>
+<figure data-type="image" tabindex="11"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_ddaf55a5_9365_6001@1080x2280.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_f01b538f_9365_6003@1080x2280.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="13"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_a2e00359_9365_6005@1080x2280.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<p>​	<strong>(或者打开ES浏览器，打开我的网络，然后在点你的电脑的图标，再输入刚刚注册的用户名和密码就好啦)</strong></p>
+<figure data-type="image" tabindex="14"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_898671d2_9365_6007@1080x2280.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="15"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_8ebefed2_9365_6009@1080x2280.jpeg.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<h3 id="3️⃣ios端">3️⃣iOS端：</h3>
+<p>​	<strong>打开文件app--点击那三个小圆点--连接服务器--服务器后面输入smb://11111111111111（将111111替换为上面查找到的ipv4地址）--输入名称和密码（此处的名称是你电脑的名称，密码是你的开机密码，也有人说是微软账户的密码，可以自己试试，反正我是开机的密码）--下一步</strong></p>
+<figure data-type="image" tabindex="16"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_340c6199_9365_6011@2224x1668.png.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="17"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_b8aeb06d_9365_6013@2224x1668.png.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="18"><img src="http://image.coolapk.com/feed/2020/0328/12/2890549_5b85512f_9371_0835@2224x1668.png.m.jpg#pic_center" alt="img" loading="lazy"></figure>
+<h3 id="三-注意事项">三、注意事项</h3>
+<p>​	<strong>更换不同的WIFI后，需要重新查询ipv4地址</strong></p>
+<p>​	<strong>PC开关机之后可能需要在安卓或者iOS端重新登陆</strong></p>
+<blockquote>
+<p>本文为Dorian原创，🈲盗用并发布到任何非个人平台</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[每日一遍的G.E.M]]></title>
         <id>https://Dorian-Yuan.github.io/mrybdzqnb/</id>
