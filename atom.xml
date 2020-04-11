@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小破站</title>
-    <updated>2020-04-11T09:49:58.606Z</updated>
+    <updated>2020-04-11T10:19:58.260Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[《亲爱的那不是爱情》]]></title>
+        <id>https://Dorian-Yuan.github.io/iIF4fvbAr/</id>
+        <link href="https://Dorian-Yuan.github.io/iIF4fvbAr/">
+        </link>
+        <updated>2020-04-11T10:11:07.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>来自bilibili知名UP主嘉嘉的光遇弹奏——</strong></p>
+<p><strong>==《亲爱的那不是爱情》=</strong></p>
+<iframe width="960" height="540" src="//player.bilibili.com/player.html?aid=242693373&bvid=BV1Ge411472q&cid=176935187&page=1" frameborder="0" allowfullscreen></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[音乐安利—《差不多的姑娘》]]></title>
         <id>https://Dorian-Yuan.github.io/cbdgn/</id>
@@ -377,19 +387,6 @@
 <blockquote>
 <p>原文详见知乎专栏<a href="https://zhuanlan.zhihu.com/p/79092634">markdown教程</a></p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Blog]]></title>
-        <id>https://Dorian-Yuan.github.io/hello-gridea/</id>
-        <link href="https://Dorian-Yuan.github.io/hello-gridea/">
-        </link>
-        <updated>2020-04-09T03:01:47.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>慢慢完善吧！</p>
-</blockquote>
-<p><strong>第一次接触Blog，感觉还是有很多比其他的地方要更好的地方。没有审查，没有烦人的社交，只有自己的收藏与积累。个人公众号不想做了，太麻烦了，还那么复杂的审查，害，看看这个能够坚持多久吧。</strong></p>
-<p><strong>可以用来存一些自己做过的事情鸭，记录生活，记录改变</strong></p>
 ]]></content>
     </entry>
 </feed>
