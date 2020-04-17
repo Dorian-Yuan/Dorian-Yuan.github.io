@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小破站</title>
-    <updated>2020-04-11T10:21:59.869Z</updated>
+    <updated>2020-04-17T15:32:01.584Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[珍惜热爱吧]]></title>
+        <id>https://Dorian-Yuan.github.io/0VeVd0hjM/</id>
+        <link href="https://Dorian-Yuan.github.io/0VeVd0hjM/">
+        </link>
+        <updated>2020-04-17T15:27:26.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>之前觉得，追星真的是一件很不怎么样的事情</strong><br>
+<strong>但是今天看到某个粉丝，提起她的idol的时候，小心翼翼又蕴含热情的样子</strong><br>
+<strong>让我觉得或许也没有那么，不值一提</strong><br>
+<strong>idol就是他们热爱的事情啊</strong><br>
+<strong>或许算不上多么高尚，多么值得夸耀</strong><br>
+<strong>但是确确实实比很多没有热爱事物的人</strong><br>
+<strong>感官上活得更有意义更加快乐吧</strong><br>
+<strong>好好珍惜</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《亲爱的那不是爱情》]]></title>
         <id>https://Dorian-Yuan.github.io/iIF4fvbAr/</id>
@@ -333,59 +349,6 @@
 <blockquote>
 <p>eMail:DorianY@163.com<br>
 <a href="https://www.coolapk.com/feed/17852782?shareKey=NjQ3MzA5YWI0MGY1NWU4ZDhiODI~&amp;shareUid=2890549&amp;shareFrom=com.coolapk.market_10.0.4-beta&amp;from=groupmessage">原文链接</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gridea编辑入门]]></title>
-        <id>https://Dorian-Yuan.github.io/cz6yQQF2a/</id>
-        <link href="https://Dorian-Yuan.github.io/cz6yQQF2a/">
-        </link>
-        <updated>2020-04-09T04:21:06.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="1-前言">1、前言</h1>
-<p>写blog对于markdown还是稍微有点要求的，所以提前给自己找个教程学着。</p>
-<h1 id="2-教程">2、教程</h1>
-<h2 id="快捷键">快捷键</h2>
-<p>1️⃣撤销：Ctrl/Command + Z</p>
-<p>2️⃣重做：Ctrl/Command + Y</p>
-<p>3️⃣加粗：Ctrl/Command + B</p>
-<p>4️⃣查找：Command + F</p>
-<p>5️⃣替换：Command + H</p>
-<p><strong>------------------------------------------------------------------------------</strong></p>
-<h2 id="标题">标题</h2>
-<p>1️⃣“# ”1级标题</p>
-<p>2️⃣“## ”2级标题</p>
-<p>3️⃣“### ”3级标题</p>
-<p>4️⃣“#### ”四级标题</p>
-<p>5️⃣“##### ”五级标题</p>
-<p>6️⃣“###### ”六级标题</p>
-<p><strong>------------------------------------------------------------------------------</strong></p>
-<h2 id="文本样式">文本样式</h2>
-<p>1️⃣“*  *和_  _”强调文本</p>
-<p>2️⃣“**  **和__  __”加粗文本</p>
-<p>3️⃣“==  ==”标记文本</p>
-<p>4️⃣“~~  ~~”删除文本</p>
-<p>5️⃣“&gt;”引用文本</p>
-<p>6️⃣“~  ~” 让中间文本变为下标</p>
-<p>7️⃣“^  ^”让中间文本变为上标</p>
-<p><strong>------------------------------------------------------------------------------</strong></p>
-<h2 id="链接">链接</h2>
-<p>1️⃣链接: <strong>[<strong>link</strong>]</strong>(链接).</p>
-<p>2️⃣图片: !<strong>[<strong>Alt</strong>]</strong>(链接)</p>
-<p>3️⃣带尺寸的图片: !<strong>[<strong>Alt</strong>]</strong>(链接 =30x30)</p>
-<p>4️⃣居中的图片: !<strong>[<strong>Alt</strong>]</strong>(链接#pic_center)</p>
-<p>5️⃣居中并且带尺寸的图片: !<strong>[<strong>Alt</strong>]</strong>(链接 =30x30)</p>
-<p>6️⃣插入音乐</p>
-<pre><code>&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=528478901&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
-</code></pre>
-<p>7️⃣插入视频</p>
-<pre><code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;这里是视频的地址&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;video width=&quot;100%&quot; height=&quot;444px&quot; poster=&quot;您的视频预显示图像&quot; preload=&quot;none&quot; controls=&quot;controls&quot;&gt;
-&lt;source src=&quot;您的视频地址&quot; /&gt;&lt;/video&gt;
-</code></pre>
-<p><strong>------------------------------------------------------------------------------</strong></p>
-<blockquote>
-<p>原文详见知乎专栏<a href="https://zhuanlan.zhihu.com/p/79092634">markdown教程</a></p>
 </blockquote>
 ]]></content>
     </entry>
