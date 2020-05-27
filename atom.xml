@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小破站</title>
-    <updated>2020-05-17T11:07:34.042Z</updated>
+    <updated>2020-05-27T00:45:22.474Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
+    <entry>
+        <title type="html"><![CDATA[更好的方式代替FTP]]></title>
+        <id>https://Dorian-Yuan.github.io/HFSHFSHFS/</id>
+        <link href="https://Dorian-Yuan.github.io/HFSHFSHFS/">
+        </link>
+        <updated>2020-05-27T00:43:23.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>什么是HFS？</strong><br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_98fde3c0_5799_606@788x546.png.m.jpg" alt="img" loading="lazy"><br>
+<em>在Windows下运行的HFS（全称：HTTP File Server）顾名思义：HTTP协议的文件服务器。</em><br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_3866b767_5799_6061@855x828.png.m.jpg" alt="img" loading="lazy"></p>
+<p>这是一个非常轻量级的文件服务器，从第一次见它就没超过3MB。正如下图所展示的，HFS不仅支持Windows，还支持Linux下的wine容器。<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_06530c08_5799_6063@738x433.png.m.jpg" alt="img" loading="lazy"></p>
+<p>其次，上图所展示的内容包含了软件的另外一个特性——无需安装，原文”No need to install”很明显它可以白嫖。当然，这里也有个问题，大家都白嫖了，作者当然就不会花太多的精力来维护软件。但是对于学生党来说，很多场景下基本都够用了。</p>
+<p>说完介绍，下面开始说怎么使用了，以及一些需要注意的地方。<br>
+<strong>——————————————————————————————————————————</strong><br>
+##1️⃣下载<br>
+<a href="https://www.rejetto.com/hfs/">下载链接</a></p>
+<p>##2️⃣整理<br>
+这个软件是直接开箱就能用的，对于一些有洁癖的人比如我来说，显然会无法忍受这种情况。<br>
+莫名其妙多个文件看起来好不舒服，而且放桌面好乱。所以，第二步需要做的是找个地方，比如C盘根目录下创建一个例如hfs的文件夹，然后将hfs.exe放进去，然后对着hfs.exe点右键发送一个快捷方式到桌面。</p>
+<p>##3️⃣调整<br>
+第一次使用时会弹个窗口出来，大意是指是否将hfs的部分功能添加到右键菜单栏里。学生党不用在意太多，闭着眼睛选就行，或者要纠结的话就选否。</p>
+<p>##4️⃣打开<br>
+打开后就是这样<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_a534f43f_5799_6068@786x424.jpeg.m.jpg" alt="img" loading="lazy"><br>
+具体的各个部分，都做了尽可能详尽的标注，简单明了。<br>
+作为一款开箱即用的软件，我们在快速上手的时候暂时只需要去了解展示文件目录树的位置和地址栏中所展示的地址。一般情况下，在网络环境比较简单的时候，我们可以直接尝试访问没有任何文件的链接，此刻的我们会看到这个画面。<em>就是没有文件的意思</em><br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_0297fe9c_5799_607@805x656.png.m.jpg" alt="img" loading="lazy"></p>
+<p>##5️⃣使用<br>
+添加文件和文件夹都是一个道理。比如，我把图里的Movie文件夹放到HFS左边的框中。<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_a87f9fb8_5799_6072@1434x595.png.m.jpg" alt="img" loading="lazy"></p>
+<p>松手后会有这么一个提示框<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_71c09bd6_5799_6074@780x419.jpeg.m.jpg" alt="img" loading="lazy"></p>
+<p>根据提示，＂Real　folder＂更快，适用于大文件夹，＂Virtual folder＂更简洁，适用于小文件夹。别问选哪个，问就是搞快点，选＂Real　folder＂。选了之后会出现这个，就说明添加成功了。<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_0a7d9f29_5802_064@783x422.jpeg.m.jpg" alt="img" loading="lazy"></p>
+<p>看回地址栏，有没有发现什么变化呢？没错，当我选中文件夹时，地址栏帮我们自动补全了地址，那么直接复制到浏览器试试吧。<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_0e078c07_5802_0642@1017x767.png.m.jpg" alt="img" loading="lazy"></p>
+<p>##6️⃣补充<br>
+移动设备上安装一个支持边下边播的浏览器例如QQ浏览器，通过浏览器访问上图中的地址，随便打开一个视频，就可以直接播放，无需下载，而且可以随意拖动进度条，演示图如下：<br>
+<img src="http://image.coolapk.com/feed/2020/0527/01/966596_1967b5fc_5802_0643@1080x2248.jpeg.m.jpg" alt="img" loading="lazy"></p>
+<figure data-type="image" tabindex="1"><img src="http://image.coolapk.com/feed/2020/0527/01/966596_dd3a73ca_5802_0645@1080x2248.jpeg.m.jpg" alt="img" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="http://image.coolapk.com/feed/2020/0527/01/966596_3f16f469_5802_0649@2248x1080.jpeg.m.jpg" alt="img" loading="lazy"></figure>
+<p>还有其他的功能和坑，等待后续补充</p>
+<p><strong>——————————————————————————————————————————</strong></p>
+<blockquote>
+<p><a href="https://www.coolapk.com/feed/19118267?shareKey=MDlmNzMxYzdiNzMzNWVjZGEyNTg~&amp;shareUid=2890549&amp;shareFrom=com.coolapk.market_10.2.1">原文链接</a></p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《画》]]></title>
         <id>https://Dorian-Yuan.github.io/huahua/</id>
@@ -260,55 +309,6 @@
 <blockquote>
 <p>所整理网站随时可能失效，且用且珍惜<br>
 <a href="https://www.coolapk.com/feed/9123097?shareKey=NjUyNGMyYTZmNWIzNWU4ZWZlMjY~&amp;shareUid=2890549&amp;shareFrom=com.coolapk.market_10.0.4">原文链接</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[买非国行iphone怎么避免翻车？]]></title>
-        <id>https://Dorian-Yuan.github.io/M8vLcp1eF/</id>
-        <link href="https://Dorian-Yuan.github.io/M8vLcp1eF/">
-        </link>
-        <updated>2020-04-09T10:56:19.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>iPhone价格高昂，而美版或者日版就会显得便宜很多啦，但是质量却又得不到保证，接下来教你如何验机，避免翻车</p>
-</blockquote>
-<h1 id="一-外观">一、外观</h1>
-<p><strong>收到手机后，第一件事看外观，有没有磕碰或者划痕（如果看到屏幕贴了钢化膜，不要以为商家很良心）把保护膜撕下来，对着阳光看或者拿着手电筒照射，看划痕是否很严重。划痕很严重的，考虑不要，用久了伤眼睛</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0325/14/3379903_459040ef_7419_9732@640x641.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<h1 id="二-侧面">二、侧面</h1>
-<p><strong>看侧面部分要看有没有磕碰划痕，这时一定要注意，看屏幕和外壳的那一圈缓冲条带，必须是完整的。如果说有破损，但是屏幕完好。可以怀疑屏幕被动过。原装屏幕也可能有破损，只是摔到了而已，但是这同样可以怀疑屏幕动过。此外，看SIM卡槽，把卡托取下，看卡托上的IEMI串码是否跟主板的IEMI串码对应，如果不对应，要么是山寨卡托，要么卡托被换过了，然后看卡托防水圈是否完整。</strong></p>
-<h1 id="三-听筒">三、听筒</h1>
-<p><strong>然后是屏幕的听筒部分，看听筒的网是不是规则细密的，如果不规则，说明拆机换过听筒网。看前置摄像头，然后把手机轻轻朝左朝右，看前置摄像头前面的玻璃是否泛蓝色，如果你看到了它泛出了蓝色，感觉很厚的话，说明外屏被换过。或者你的前置摄像头有毛刺，说明前置摄像头是进过水的，一般进过水的手机，就算维修为正常，也用不了多久。</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0325/14/3379903_1e7166a7_7419_9735@724x305.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<blockquote>
-<p>左边原装，右边不正常</p>
-</blockquote>
-<h1 id="四-背面">四、背面</h1>
-<p><strong>背面跟前面一样，在强光环境下看划痕，然后看镜片有没有划痕，有没有泛出蓝色的光芒，如果有，看蓝光是否很自然的过渡，如果蓝色光芒非常重，没有自然过渡。或者说没有蓝光，可以判定后摄像头玻璃被更换为非原装后摄像头玻璃。</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0325/14/3379903_64aebf1a_7419_9736@740x334.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<p><strong>5-6s用户：看后面背板是不是平整的，有没有凹凸现象。</strong><br>
-<strong>7-11用户：采用了玻璃面板，需要用手感受背板玻璃是否割手，如果割手，说明换过后面的玻璃。</strong></p>
-<h1 id="五-底部">五、底部</h1>
-<p><strong>外表的最后是底部，在强光环境下看lighting接口是否有锈迹。然后用手摸一下，如果底部尾插部分摸上去不太平整，有凹凸感，说明换了非原装中框。真正的原装中框是很平整，不易掉漆。</strong></p>
-<h1 id="六-屏幕">六、屏幕</h1>
-<p><strong>进入桌面，然后这时候手机已经恢复了出厂，没有软件给你做测试。怎么办呢？随便按住一个图标，然后上下左右依次拖动，然后随便转几下，如果转一两下就不跟手了，说明屏幕触摸部分有问题。</strong></p>
-<p><strong>设置，显示，屏幕原彩显示，把亮度调到最大，把原彩显示关了。这时候屏幕会展示它真实的模样，如果屏幕发蓝，色温很冷，在白色界面往纯白颜色显示，说明是国产屏幕，国产屏幕通常都是冷色调。价格低廉，深受奸商们的喜欢。而真正的原装屏幕，是往米白色显示，色温偏暖，保护眼睛。</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0325/14/3379903_b0b35a8b_7419_9738@512x287.jpeg.m.jpg#pic_center" alt="Alt" loading="lazy"></p>
-<h1 id="七-元件">七、元件</h1>
-<p><strong>使用手电筒等强光物品，对着听筒去照，如果开了自动亮度强照无反应，说明自动亮度感应器有问题。一般导致自动光感失效的原因基本是进水。很少有拆坏或者烧坏的可能。</strong></p>
-<p><strong>接下来测试扬声器，我们可以去设置，声音，播放一段铃声，由于iPhone从7开始就是双扬声器了，所以必须要一个一个的去测试，测试的时候注意听有没有破音的情况。有的话，可以尝试清理灰尘，如果无效，就需要去售后进行拆机检测更换。</strong></p>
-<p><strong>然后测试震动，iPhone的震动历年来都是非常细腻的震动，特别是有了Taptic Engine后，震动声更加好听了。测试方法：设置，声音和触感，电话铃声，震动来进行测试。如果没有震动，或者震动声音很奇怪，赶紧去退货。</strong></p>
-<p><strong>测试Face ID和Touch ID是否能正常录入，如果添加选项显示灰色不可用，或者录入的时候一直提示往下一点，说明硬件出现了故障。</strong></p>
-<h1 id="八-相机">八、相机</h1>
-<p><strong>测试相机部分，先使用前置摄像头拍一张，然后后置摄像头拍一张，看成像是否正常。然后把摄像头用手指等物品捂住，然后慢慢松开，注意看有没有显示蓝色或者其他颜色的点或者线，有的话说明手机相机组件或者主板上的座子有问题。再测试录像，先切换到前置摄像头录像并发出声音，录完后切换到后置摄像头录像并发出声音，再仔细听是否正常，如果没有声音说明前置麦克风或者后置麦克风出了问题。</strong></p>
-<h1 id="九-主板">九、主板</h1>
-<p><strong>测试主板是否有暗病，在相机下选择后置摄像头，录像30分钟，如果30分钟出现重启，死机，花屏的情况，说明主板存在的故障很严重</strong></p>
-<p><strong>然后打开指南针，测试水平和定位方向。再打开设置，找到隐私，找到分析与改进，找到分析数据，找有没有出现panic（崩溃）或者AutoResrtSystem（自动重启）的记录。</strong></p>
-<h1 id="十-还原出厂">十、还原出厂</h1>
-<p><strong>还原出厂，在通用，还原，抹掉所有内容和设置。可以检查手机是否有隐藏ID，无法激活等问题。</strong></p>
-<p><strong>以上这些步骤，你的手机都过了，那恭喜，放心大胆的用吧。</strong></p>
-<blockquote>
-<p><a href="https://www.coolapk.com/feed/17573671?shareKey=YWIyMTZjODRmYmE1NWU4ZWU3ZGM~&amp;shareUid=2890549&amp;shareFrom=com.coolapk.market_10.0.4">原文链接</a></p>
 </blockquote>
 ]]></content>
     </entry>
