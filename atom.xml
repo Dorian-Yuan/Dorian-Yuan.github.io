@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
     <title>Dorian的秘密小破站</title>
-    <updated>2020-08-15T03:37:50.072Z</updated>
+    <updated>2020-08-15T03:45:57.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
-    <subtitle>音乐/电影/数码/邓紫棋/HUSTer</subtitle>
+    <subtitle>光·遇/音乐/电影/数码/邓紫棋/HUSTer</subtitle>
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
