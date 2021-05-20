@@ -90,3 +90,11 @@ a {
 .doc-footer-nav-right .doc-footer-nav-chapter {
   margin-right: 34px;
 }
+
+    .header {background-image: url(https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&h=650&w=940);}
+    .index-img{ background-image: url(https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&h=650&w=940);}
+    
+      .v {
+        display: none;
+      }
+    
