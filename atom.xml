@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dorian-Yuan.github.io</id>
-    <title>Dorian的秘密小破站</title>
-    <updated>2020-11-29T14:09:29.022Z</updated>
+    <title>Dorian.Y</title>
+    <updated>2021-05-20T16:15:45.653Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dorian-Yuan.github.io"/>
     <link rel="self" href="https://Dorian-Yuan.github.io/atom.xml"/>
-    <subtitle>光·遇/音乐/电影/数码/邓紫棋/HUSTer</subtitle>
+    <subtitle>光·遇/电影/数码/邓紫棋/HUSTer/Jay Chou/考研</subtitle>
     <logo>https://Dorian-Yuan.github.io/images/avatar.png</logo>
     <icon>https://Dorian-Yuan.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Dorian的秘密小破站</rights>
+    <rights>All rights reserved 2021, Dorian.Y</rights>
+    <entry>
+        <title type="html"><![CDATA[【考研】一、大概情况(2021.5.20)]]></title>
+        <id>https://Dorian-Yuan.github.io/kaoyan1/</id>
+        <link href="https://Dorian-Yuan.github.io/kaoyan1/">
+        </link>
+        <updated>2021-05-20T15:35:42.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="为什么选择考研">为什么选择考研</h3>
+<p>本科学习实在是有点拉垮，最难过的莫过于CMOS I和半导体器件物理挂科了，烦人啊。然后呢就是想好好考研之后找个好点的工作或者是去做选调生吧。</p>
+<h3 id="目标院校">目标院校</h3>
+<p>重点准备复旦大学，然后华中大备选吧，毕竟我科的专业课确实不是特别难。</p>
+<h3 id="复习情况">复习情况</h3>
+<p><strong>数学二</strong>：一轮复习快结束了，目前看到了张宇三十讲线代部分的向量组<br>
+<strong>英语二</strong>：恋练有词的5500单词大概过了4200左右，词汇量大概上了1w（墨墨背单词测试所得）<br>
+<strong>专业课</strong>：总体来说还没开始，基本上资料准备齐全了，马上开始<br>
+<strong>政治</strong>：完全没动</p>
+<h3 id="为何要写这个blog">为何要写这个Blog</h3>
+<p>1️⃣为了记录每周的历程，大概每周五晚上记录一周总结<br>
+2️⃣<s>如果失败我肯定是要二战的，记录一下每周情况可以方便之后的复盘</s> 我肯定会上岸的<br>
+3️⃣如果成功上岸可以让学弟学妹更了解具体的情况嘛</p>
+<h3 id="现在的学习状况">现在的学习状况</h3>
+<p>在FOREST上每天记录下来的学习时间差不多是6小时，因为上课的时候我一般都在摸鱼玩手机。而一般周末或者是没课的时候可以达到8小时左右（~~ 因为每次刚进图书馆的时候我都要摸会鱼~~）。<br>
+每天作息大概是0点睡，7点40起，8点20左右到东图自习。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[下载大部分PDF教材的教程]]></title>
         <id>https://Dorian-Yuan.github.io/PDFdownload/</id>
@@ -42,13 +66,13 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[《饿狼传说》]]></title>
-        <id>https://Dorian-Yuan.github.io/-dkjSZeUT/</id>
-        <link href="https://Dorian-Yuan.github.io/-dkjSZeUT/">
+        <id>https://Dorian-Yuan.github.io/elcs/</id>
+        <link href="https://Dorian-Yuan.github.io/elcs/">
         </link>
         <updated>2020-08-22T04:36:27.000Z</updated>
         <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=190270&auto=1&height=66"></iframe>
 <p>我太爱了！</p>
-<iframe width="960" height="540" src="//player.bilibili.com/player.html?aid=414186614&bvid=BV19V411z7wk&cid=224551945&page=1" frameborder="0" allowfullscreen></iframe>]]></content>
+<iframe width="960" height="540" src="//player.bilibili.com/player.html?aid=414186614&bvid=BV19V411z7wk&cid=307267622&page=1" frameborder="0" allowfullscreen></iframe>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[量子力学——不自量力]]></title>
@@ -60,77 +84,12 @@
 <iframe src="//player.bilibili.com/player.html?aid=93390994&bvid=BV13E41147eJ&cid=168057795&page=10" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[更好的方式代替FTP]]></title>
-        <id>https://Dorian-Yuan.github.io/HFSHFSHFS/</id>
-        <link href="https://Dorian-Yuan.github.io/HFSHFSHFS/">
-        </link>
-        <updated>2020-05-27T00:43:23.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>什么是HFS？</strong><br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_98fde3c0_5799_606@788x546.png.m.jpg" alt="img" loading="lazy"><br>
-<em>在Windows下运行的HFS（全称：HTTP File Server）顾名思义：HTTP协议的文件服务器。</em><br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_3866b767_5799_6061@855x828.png.m.jpg" alt="img" loading="lazy"></p>
-<p>这是一个非常轻量级的文件服务器，从第一次见它就没超过3MB。正如下图所展示的，HFS不仅支持Windows，还支持Linux下的wine容器。<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_06530c08_5799_6063@738x433.png.m.jpg" alt="img" loading="lazy"></p>
-<p>其次，上图所展示的内容包含了软件的另外一个特性——无需安装，原文”No need to install”很明显它可以白嫖。当然，这里也有个问题，大家都白嫖了，作者当然就不会花太多的精力来维护软件。但是对于学生党来说，很多场景下基本都够用了。</p>
-<p>说完介绍，下面开始说怎么使用了，以及一些需要注意的地方。<br>
-<strong>——————————————————————————————————————————</strong><br>
-##1️⃣下载<br>
-<a href="https://www.rejetto.com/hfs/">下载链接</a></p>
-<p>##2️⃣整理<br>
-这个软件是直接开箱就能用的，对于一些有洁癖的人比如我来说，显然会无法忍受这种情况。<br>
-莫名其妙多个文件看起来好不舒服，而且放桌面好乱。所以，第二步需要做的是找个地方，比如C盘根目录下创建一个例如hfs的文件夹，然后将hfs.exe放进去，然后对着hfs.exe点右键发送一个快捷方式到桌面。</p>
-<p>##3️⃣调整<br>
-第一次使用时会弹个窗口出来，大意是指是否将hfs的部分功能添加到右键菜单栏里。学生党不用在意太多，闭着眼睛选就行，或者要纠结的话就选否。</p>
-<p>##4️⃣打开<br>
-打开后就是这样<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_a534f43f_5799_6068@786x424.jpeg.m.jpg" alt="img" loading="lazy"><br>
-具体的各个部分，都做了尽可能详尽的标注，简单明了。<br>
-作为一款开箱即用的软件，我们在快速上手的时候暂时只需要去了解展示文件目录树的位置和地址栏中所展示的地址。一般情况下，在网络环境比较简单的时候，我们可以直接尝试访问没有任何文件的链接，此刻的我们会看到这个画面。<em>就是没有文件的意思</em><br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_0297fe9c_5799_607@805x656.png.m.jpg" alt="img" loading="lazy"></p>
-<p>##5️⃣使用<br>
-添加文件和文件夹都是一个道理。比如，我把图里的Movie文件夹放到HFS左边的框中。<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_a87f9fb8_5799_6072@1434x595.png.m.jpg" alt="img" loading="lazy"></p>
-<p>松手后会有这么一个提示框<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_71c09bd6_5799_6074@780x419.jpeg.m.jpg" alt="img" loading="lazy"></p>
-<p>根据提示，＂Real　folder＂更快，适用于大文件夹，＂Virtual folder＂更简洁，适用于小文件夹。别问选哪个，问就是搞快点，选＂Real　folder＂。选了之后会出现这个，就说明添加成功了。<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_0a7d9f29_5802_064@783x422.jpeg.m.jpg" alt="img" loading="lazy"></p>
-<p>看回地址栏，有没有发现什么变化呢？没错，当我选中文件夹时，地址栏帮我们自动补全了地址，那么直接复制到浏览器试试吧。<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_0e078c07_5802_0642@1017x767.png.m.jpg" alt="img" loading="lazy"></p>
-<p>##6️⃣补充<br>
-移动设备上安装一个支持边下边播的浏览器例如QQ浏览器，通过浏览器访问上图中的地址，随便打开一个视频，就可以直接播放，无需下载，而且可以随意拖动进度条，演示图如下：<br>
-<img src="http://image.coolapk.com/feed/2020/0527/01/966596_1967b5fc_5802_0643@1080x2248.jpeg.m.jpg" alt="img" loading="lazy"></p>
-<figure data-type="image" tabindex="1"><img src="http://image.coolapk.com/feed/2020/0527/01/966596_dd3a73ca_5802_0645@1080x2248.jpeg.m.jpg" alt="img" loading="lazy"></figure>
-<figure data-type="image" tabindex="2"><img src="http://image.coolapk.com/feed/2020/0527/01/966596_3f16f469_5802_0649@2248x1080.jpeg.m.jpg" alt="img" loading="lazy"></figure>
-<p>还有其他的功能和坑，等待后续补充</p>
-<p><strong>——————————————————————————————————————————</strong></p>
-<blockquote>
-<p><a href="https://www.coolapk.com/feed/19118267?shareKey=MDlmNzMxYzdiNzMzNWVjZGEyNTg~&amp;shareUid=2890549&amp;shareFrom=com.coolapk.market_10.2.1">原文链接</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[《画》]]></title>
         <id>https://Dorian-Yuan.github.io/huahua/</id>
         <link href="https://Dorian-Yuan.github.io/huahua/">
         </link>
         <updated>2020-05-17T11:05:32.000Z</updated>
         <content type="html"><![CDATA[<iframe width="960" height="540" src="//player.bilibili.com/player.html?aid=370628749&bvid=BV1qZ4y1s7zg&cid=191980526&page=1" frameborder="0" allowfullscreen></iframe>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[珍惜热爱吧]]></title>
-        <id>https://Dorian-Yuan.github.io/0VeVd0hjM/</id>
-        <link href="https://Dorian-Yuan.github.io/0VeVd0hjM/">
-        </link>
-        <updated>2020-04-17T15:27:26.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>之前觉得，追星真的是一件很不怎么样的事情</strong><br>
-<strong>但是今天看到某个粉丝，提起她的idol的时候，小心翼翼又蕴含热情的样子</strong><br>
-<strong>让我觉得或许也没有那么，不值一提</strong><br>
-<strong>idol就是他们热爱的事情啊</strong><br>
-<strong>或许算不上多么高尚，多么值得夸耀</strong><br>
-<strong>但是确确实实比很多没有热爱事物的人</strong><br>
-<strong>感官上活得更有意义更加快乐吧</strong><br>
-<strong>好好珍惜</strong></p>
 ]]></content>
     </entry>
     <entry>
@@ -271,6 +230,16 @@
         <updated>2020-04-10T09:56:15.000Z</updated>
         <content type="html"><![CDATA[<p><strong>邓紫棋NB！</strong></p>
 <iframe width="960" height="540" src="//player.bilibili.com/player.html?aid=56220484&bvid=BV1A4411377c&cid=98263547&page=1" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《想见你想见你想见你》]]></title>
+        <id>https://Dorian-Yuan.github.io/xjnxjnxjn/</id>
+        <link href="https://Dorian-Yuan.github.io/xjnxjnxjn/">
+        </link>
+        <updated>2020-04-10T09:14:42.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Dorian-Yuan.github.io/post-images/1586571841856.jpg" alt="" loading="lazy"></figure>
+<iframe width="960" height="540" src="//player.bilibili.com/player.html?aid=285134366&bvid=BV1tc411h7rk&cid=176498881&page=1" frameborder="0" allowfullscreen></iframe>
 ]]></content>
     </entry>
 </feed>
